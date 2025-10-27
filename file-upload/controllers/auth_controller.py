@@ -21,7 +21,7 @@ def login():
     if username == 'admin' and password == 'admin':
         token = jwt.encode({
             'username': username,
-            'exp': datetime.datetime.utcnow() + datetime.timedelta(minutes=20)
+            'exp': datetime.datetime.now() + datetime.timedelta(minutes=20)
         }, Config.SECRET_KEY, algorithm = 'HS256')
         logging.info(f'[LOGIN SUCCESS] Username: {username}')
         return jsonify({f'message': 'Login Successful', 'token': token}), 200
