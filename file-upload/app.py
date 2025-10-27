@@ -4,6 +4,7 @@ from flask import Flask
 from models.db_extension import db
 from config import Config
 
+
 # Initialize Flask App
 app = Flask(__name__)
 app.config.from_object(Config)
@@ -21,8 +22,10 @@ logging.basicConfig(
 
 # Register blueprints
 from controllers.file_controller import file_bp
+from controllers.auth_controller import auth_bp
 
 app.register_blueprint(file_bp)
+app.register_blueprint(auth_bp)
 
 # Create tables if not exist
 with app.app_context():

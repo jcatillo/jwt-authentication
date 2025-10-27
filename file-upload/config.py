@@ -12,3 +12,5 @@ class Config:
     UPLOAD_FOLDER = os.getenv('UPLOAD_FOLDER', 'uploads')
     LOG_FOLDER = 'logs'
     DEBUG = True
+
+    SECRET_KEY = os.getenv("JWT_SECRET_KEY")

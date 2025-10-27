@@ -77,3 +77,95 @@
 2025-10-18 14:39:43,280 [INFO] 127.0.0.1 - - [18/Oct/2025 14:39:43] "GET /file/3 HTTP/1.1" 200 -
 2025-10-18 14:39:46,088 [ERROR] Get error: [Errno 2] No such file or directory: '/Users/jcatillo/Documents/School/Proglan/file-upload/uploads/e39b25e138fc4db7a772d18499dce12d_Screenshot_2025-10-16_at_2.37.18_PM.png'
 2025-10-18 14:39:46,093 [INFO] 127.0.0.1 - - [18/Oct/2025 14:39:46] "[35m[1mGET /file/2 HTTP/1.1[0m" 500 -
+2025-10-27 23:29:04,767 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-27 23:29:04,767 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-27 23:29:04,767 [INFO]  * Restarting with stat
+2025-10-27 23:29:04,988 [WARNING]  * Debugger is active!
+2025-10-27 23:29:05,001 [INFO]  * Debugger PIN: 138-035-899
+2025-10-27 23:29:50,519 [INFO] [LOGIN SUCCESS] Username: admin
+2025-10-27 23:29:50,533 [INFO] 127.0.0.1 - - [27/Oct/2025 23:29:50] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2025-10-27 23:31:16,230 [INFO] 127.0.0.1 - - [27/Oct/2025 23:31:16] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-27 23:31:16,262 [INFO] 127.0.0.1 - - [27/Oct/2025 23:31:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-27 23:31:23,483 [INFO] 127.0.0.1 - - [27/Oct/2025 23:31:23] "[31m[1mGET /login HTTP/1.1[0m" 405 -
+2025-10-27 23:32:06,320 [INFO] 127.0.0.1 - - [27/Oct/2025 23:32:06] "[31m[1mPOST /login HTTP/1.1[0m" 415 -
+2025-10-27 23:32:10,962 [INFO] 127.0.0.1 - - [27/Oct/2025 23:32:10] "[31m[1mPOST /login HTTP/1.1[0m" 415 -
+2025-10-27 23:32:13,414 [INFO] 127.0.0.1 - - [27/Oct/2025 23:32:13] "[31m[1mPOST /login HTTP/1.1[0m" 415 -
+2025-10-27 23:32:23,452 [ERROR] Empty fields
+2025-10-27 23:32:23,452 [INFO] 127.0.0.1 - - [27/Oct/2025 23:32:23] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2025-10-27 23:32:52,955 [INFO] [LOGIN SUCCESS] Username: admin
+2025-10-27 23:32:52,961 [INFO] 127.0.0.1 - - [27/Oct/2025 23:32:52] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2025-10-27 23:34:11,018 [INFO]  * Detected change in '/Users/jcatillo/Documents/School/Proglan/jwt-authentication/file-upload/controllers/auth_controller.py', reloading
+2025-10-27 23:34:11,102 [INFO]  * Restarting with stat
+2025-10-27 23:34:11,448 [WARNING]  * Debugger is active!
+2025-10-27 23:34:11,459 [INFO]  * Debugger PIN: 138-035-899
+2025-10-27 23:34:20,193 [INFO] [LOGIN SUCCESS] Username: admin
+2025-10-27 23:34:20,199 [INFO] 127.0.0.1 - - [27/Oct/2025 23:34:20] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2025-10-27 23:34:27,288 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-27 23:34:27,288 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-27 23:34:27,289 [INFO]  * Restarting with stat
+2025-10-27 23:34:27,483 [WARNING]  * Debugger is active!
+2025-10-27 23:34:27,491 [INFO]  * Debugger PIN: 138-035-899
+2025-10-27 23:34:28,705 [INFO] [LOGIN SUCCESS] Username: admin
+2025-10-27 23:34:28,711 [INFO] 127.0.0.1 - - [27/Oct/2025 23:34:28] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2025-10-27 23:35:33,284 [INFO]  * Detected change in '/Users/jcatillo/Documents/School/Proglan/jwt-authentication/file-upload/controllers/auth_controller.py', reloading
+2025-10-27 23:35:33,346 [INFO]  * Restarting with stat
+2025-10-27 23:35:53,930 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-27 23:35:53,930 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-27 23:35:53,930 [INFO]  * Restarting with stat
+2025-10-27 23:35:54,135 [WARNING]  * Debugger is active!
+2025-10-27 23:35:54,146 [INFO]  * Debugger PIN: 138-035-899
+2025-10-27 23:38:10,025 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-27 23:38:10,025 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-27 23:38:10,026 [INFO]  * Restarting with stat
+2025-10-27 23:38:10,239 [WARNING]  * Debugger is active!
+2025-10-27 23:38:10,250 [INFO]  * Debugger PIN: 138-035-899
+2025-10-27 23:40:58,864 [INFO] 127.0.0.1 - - [27/Oct/2025 23:40:58] "[33mGET /file/ HTTP/1.1[0m" 404 -
+2025-10-27 23:41:03,241 [INFO] 127.0.0.1 - - [27/Oct/2025 23:41:03] "[33mGET /file HTTP/1.1[0m" 404 -
+2025-10-27 23:41:04,619 [INFO] 127.0.0.1 - - [27/Oct/2025 23:41:04] "[33mGET /file HTTP/1.1[0m" 404 -
+2025-10-27 23:41:06,588 [INFO] 127.0.0.1 - - [27/Oct/2025 23:41:06] "[33mGET /files HTTP/1.1[0m" 404 -
+2025-10-27 23:41:09,133 [INFO] 127.0.0.1 - - [27/Oct/2025 23:41:09] "[33mGET /files/ HTTP/1.1[0m" 404 -
+2025-10-27 23:41:13,950 [INFO] 127.0.0.1 - - [27/Oct/2025 23:41:13] "[33mGET /file/1 HTTP/1.1[0m" 404 -
+2025-10-27 23:41:38,135 [INFO] [LOGIN SUCCESS] Username: admin
+2025-10-27 23:41:38,135 [INFO] 127.0.0.1 - - [27/Oct/2025 23:41:38] "POST /login HTTP/1.1" 200 -
+2025-10-27 23:42:28,561 [WARNING] [LOGIN FAILED] Username: admin1
+2025-10-27 23:42:28,562 [INFO] 127.0.0.1 - - [27/Oct/2025 23:42:28] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-10-27 23:43:54,359 [ERROR] Empty fields
+2025-10-27 23:43:54,359 [INFO] 127.0.0.1 - - [27/Oct/2025 23:43:54] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2025-10-27 23:43:55,890 [ERROR] Empty fields
+2025-10-27 23:43:55,890 [INFO] 127.0.0.1 - - [27/Oct/2025 23:43:55] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2025-10-27 23:44:21,850 [INFO]  * Detected change in '/Users/jcatillo/Documents/School/Proglan/jwt-authentication/file-upload/controllers/auth_controller.py', reloading
+2025-10-27 23:44:21,933 [INFO]  * Restarting with stat
+2025-10-27 23:44:22,250 [WARNING]  * Debugger is active!
+2025-10-27 23:44:22,261 [INFO]  * Debugger PIN: 138-035-899
+2025-10-27 23:46:00,471 [INFO] 127.0.0.1 - - [27/Oct/2025 23:46:00] "[33mPOST /file?file HTTP/1.1[0m" 404 -
+2025-10-27 23:47:16,566 [INFO] 127.0.0.1 - - [27/Oct/2025 23:47:16] "[33mPOST /file HTTP/1.1[0m" 404 -
+2025-10-27 23:47:28,295 [ERROR] Upload error: File type not allowed
+2025-10-27 23:47:28,296 [INFO] 127.0.0.1 - - [27/Oct/2025 23:47:28] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-10-27 23:47:35,132 [INFO] File saved: uploads/8786827dd02c4097b041c8924604c828/cbcd439173f9437bbd6f8a3a6ce1247f_Group_1857.png
+2025-10-27 23:47:35,139 [INFO] 127.0.0.1 - - [27/Oct/2025 23:47:35] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-10-27 23:47:46,751 [INFO] 127.0.0.1 - - [27/Oct/2025 23:47:46] "[31m[1mPOST /file/1 HTTP/1.1[0m" 405 -
+2025-10-27 23:47:48,697 [INFO] 127.0.0.1 - - [27/Oct/2025 23:47:48] "[31m[1mPOST /file/5 HTTP/1.1[0m" 405 -
+2025-10-27 23:47:51,569 [INFO] 127.0.0.1 - - [27/Oct/2025 23:47:51] "GET /file/5 HTTP/1.1" 200 -
+2025-10-27 23:48:43,073 [INFO] File saved: uploads/69a54e4d4b754c2aa0ef5b5b37740c92_Screenshot_2025-06-29_at_2.44.28_PM.png
+2025-10-27 23:48:43,088 [INFO] File updated: ID=5
+2025-10-27 23:48:43,092 [INFO] 127.0.0.1 - - [27/Oct/2025 23:48:43] "PUT /file/5 HTTP/1.1" 200 -
+2025-10-27 23:50:24,819 [INFO] File deleted from storage: uploads/69a54e4d4b754c2aa0ef5b5b37740c92_Screenshot_2025-06-29_at_2.44.28_PM.png
+2025-10-27 23:50:24,828 [INFO] Record deleted: ID=5
+2025-10-27 23:50:24,829 [INFO] 127.0.0.1 - - [27/Oct/2025 23:50:24] "DELETE /file/5 HTTP/1.1" 200 -
+2025-10-27 23:50:40,250 [INFO] File deleted from storage: uploads/0b0915db3e504aa1966be5b3660eb082/e330d2c083044df5a4324392c9aa169d_Screenshot_2025-06-29_at_2.44.28_PM.png
+2025-10-27 23:50:40,253 [INFO] Record deleted: ID=4
+2025-10-27 23:50:40,253 [INFO] 127.0.0.1 - - [27/Oct/2025 23:50:40] "DELETE /file/4 HTTP/1.1" 200 -
+2025-10-27 23:50:49,066 [INFO] File deleted from storage: uploads/621c73459b2e4335ad912e4965962f30/9fe79edeabe845f98d1a8149047fc99e_698dd37b-18c8-4705-9873-cc5acaf9c7e4_Fake-ID-Criminal-Charge-Indianapolis-Indiana.jpg
+2025-10-27 23:50:49,068 [INFO] Record deleted: ID=3
+2025-10-27 23:50:49,068 [INFO] 127.0.0.1 - - [27/Oct/2025 23:50:49] "DELETE /file/3 HTTP/1.1" 200 -
+2025-10-27 23:51:07,886 [INFO] 127.0.0.1 - - [27/Oct/2025 23:51:07] "[33mPOST /file/upload HTTP/1.1[0m" 404 -
+2025-10-27 23:51:13,808 [INFO] File saved: uploads/b62d76c68e4041e888bf20acfcf4c000/b9a1cb91c8e343dc852338be35ff313f_Screenshot_2025-06-29_at_2.44.28_PM.png
+2025-10-27 23:51:13,811 [INFO] 127.0.0.1 - - [27/Oct/2025 23:51:13] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-10-27 23:51:22,989 [INFO] File saved: uploads/558fc3f29c12425aa59dbd6b4a41b2c9/81a6f719ff724b0e85df9b5ed2fe24ad_Group_1857.png
+2025-10-27 23:51:22,991 [INFO] 127.0.0.1 - - [27/Oct/2025 23:51:22] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-10-27 23:51:45,238 [INFO] [LOGIN SUCCESS] Username: admin
+2025-10-27 23:51:45,239 [INFO] 127.0.0.1 - - [27/Oct/2025 23:51:45] "POST /login HTTP/1.1" 200 -
