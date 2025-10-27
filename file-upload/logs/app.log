@@ -1,0 +1,79 @@
+2025-10-18 14:26:53,240 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-18 14:26:53,240 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-18 14:26:53,241 [INFO]  * Restarting with stat
+2025-10-18 14:26:53,454 [WARNING]  * Debugger is active!
+2025-10-18 14:26:53,469 [INFO]  * Debugger PIN: 138-035-899
+2025-10-18 14:27:15,095 [INFO]  * Detected change in '/Users/jcatillo/Documents/School/Proglan/file-upload/config.py', reloading
+2025-10-18 14:27:15,152 [INFO]  * Restarting with stat
+2025-10-18 14:27:15,411 [WARNING]  * Debugger is active!
+2025-10-18 14:27:15,419 [INFO]  * Debugger PIN: 138-035-899
+2025-10-18 14:27:16,618 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-18 14:27:16,619 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-18 14:27:16,619 [INFO]  * Restarting with stat
+2025-10-18 14:27:16,809 [WARNING]  * Debugger is active!
+2025-10-18 14:27:16,818 [INFO]  * Debugger PIN: 138-035-899
+2025-10-18 14:27:24,063 [INFO]  * Detected change in '/Users/jcatillo/Documents/School/Proglan/file-upload/config.py', reloading
+2025-10-18 14:27:24,133 [INFO]  * Restarting with stat
+2025-10-18 14:27:24,353 [WARNING]  * Debugger is active!
+2025-10-18 14:27:24,361 [INFO]  * Debugger PIN: 138-035-899
+2025-10-18 14:27:28,068 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-18 14:27:28,068 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-18 14:27:28,069 [INFO]  * Restarting with stat
+2025-10-18 14:27:28,257 [WARNING]  * Debugger is active!
+2025-10-18 14:27:28,265 [INFO]  * Debugger PIN: 138-035-899
+2025-10-18 14:29:46,546 [INFO] 127.0.0.1 - - [18/Oct/2025 14:29:46] "[33mPOST / HTTP/1.1[0m" 404 -
+2025-10-18 14:30:34,354 [INFO] 127.0.0.1 - - [18/Oct/2025 14:30:34] "[33mPOST / HTTP/1.1[0m" 404 -
+2025-10-18 14:31:08,293 [INFO] File saved: uploads/a33bb971cfdd4e1eabd0ed5ff4fabcc9/1c98826ed5274f90a05891d35d75e36b_back_e9c58ea9-72a3-4684-b596-5e2243dac9bd.png
+2025-10-18 14:31:08,296 [INFO] 127.0.0.1 - - [18/Oct/2025 14:31:08] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-10-18 14:31:57,850 [INFO] 127.0.0.1 - - [18/Oct/2025 14:31:57] "GET /file/1 HTTP/1.1" 200 -
+2025-10-18 14:32:27,671 [INFO] File saved: uploads/e39b25e138fc4db7a772d18499dce12d_Screenshot_2025-10-16_at_2.37.18_PM.png
+2025-10-18 14:32:27,676 [INFO] File updated: ID=1
+2025-10-18 14:32:27,677 [INFO] 127.0.0.1 - - [18/Oct/2025 14:32:27] "PUT /file/1 HTTP/1.1" 200 -
+2025-10-18 14:32:37,451 [INFO] 127.0.0.1 - - [18/Oct/2025 14:32:37] "GET /file/1 HTTP/1.1" 200 -
+2025-10-18 14:32:48,327 [INFO] File deleted from storage: uploads/e39b25e138fc4db7a772d18499dce12d_Screenshot_2025-10-16_at_2.37.18_PM.png
+2025-10-18 14:32:48,330 [INFO] Record deleted: ID=1
+2025-10-18 14:32:48,330 [INFO] 127.0.0.1 - - [18/Oct/2025 14:32:48] "DELETE /file/1 HTTP/1.1" 200 -
+2025-10-18 14:33:43,178 [INFO]  * Detected change in '/Users/jcatillo/Documents/School/Proglan/file-upload/services/file_service.py', reloading
+2025-10-18 14:33:43,234 [INFO]  * Restarting with stat
+2025-10-18 14:33:43,511 [WARNING]  * Debugger is active!
+2025-10-18 14:33:43,521 [INFO]  * Debugger PIN: 138-035-899
+2025-10-18 14:33:45,592 [INFO]  * Detected change in '/Users/jcatillo/Documents/School/Proglan/file-upload/services/file_service.py', reloading
+2025-10-18 14:33:45,650 [INFO]  * Restarting with stat
+2025-10-18 14:33:45,856 [WARNING]  * Debugger is active!
+2025-10-18 14:33:45,864 [INFO]  * Debugger PIN: 138-035-899
+2025-10-18 14:34:41,103 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-18 14:34:41,104 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-18 14:34:41,104 [INFO]  * Restarting with stat
+2025-10-18 14:34:41,306 [WARNING]  * Debugger is active!
+2025-10-18 14:34:41,316 [INFO]  * Debugger PIN: 138-035-899
+2025-10-18 14:34:52,645 [INFO]  * Detected change in '/Users/jcatillo/Documents/School/Proglan/file-upload/config.py', reloading
+2025-10-18 14:34:52,688 [INFO]  * Restarting with stat
+2025-10-18 14:34:52,882 [WARNING]  * Debugger is active!
+2025-10-18 14:34:52,889 [INFO]  * Debugger PIN: 138-035-899
+2025-10-18 14:34:57,021 [INFO]  * Detected change in '/Users/jcatillo/Documents/School/Proglan/file-upload/config.py', reloading
+2025-10-18 14:34:57,085 [INFO]  * Restarting with stat
+2025-10-18 14:34:57,304 [WARNING]  * Debugger is active!
+2025-10-18 14:34:57,312 [INFO]  * Debugger PIN: 138-035-899
+2025-10-18 14:35:03,207 [INFO] 127.0.0.1 - - [18/Oct/2025 14:35:03] "[33mGET /file/1 HTTP/1.1[0m" 404 -
+2025-10-18 14:35:48,359 [INFO] 127.0.0.1 - - [18/Oct/2025 14:35:48] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-10-18 14:35:52,681 [INFO] 127.0.0.1 - - [18/Oct/2025 14:35:52] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-10-18 14:36:08,203 [INFO] File saved: uploads/621c73459b2e4335ad912e4965962f30/9fe79edeabe845f98d1a8149047fc99e_698dd37b-18c8-4705-9873-cc5acaf9c7e4_Fake-ID-Criminal-Charge-Indianapolis-Indiana.jpg
+2025-10-18 14:36:08,204 [INFO] 127.0.0.1 - - [18/Oct/2025 14:36:08] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-10-18 14:37:15,597 [ERROR] Upload error: File type not allowed
+2025-10-18 14:37:15,599 [INFO] 127.0.0.1 - - [18/Oct/2025 14:37:15] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-10-18 14:37:36,707 [INFO] File saved: uploads/0b0915db3e504aa1966be5b3660eb082/e330d2c083044df5a4324392c9aa169d_Screenshot_2025-06-29_at_2.44.28_PM.png
+2025-10-18 14:37:36,709 [INFO] 127.0.0.1 - - [18/Oct/2025 14:37:36] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-10-18 14:39:32,579 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-18 14:39:32,579 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-18 14:39:32,580 [INFO]  * Restarting with stat
+2025-10-18 14:39:32,775 [WARNING]  * Debugger is active!
+2025-10-18 14:39:32,787 [INFO]  * Debugger PIN: 138-035-899
+2025-10-18 14:39:40,500 [INFO] 127.0.0.1 - - [18/Oct/2025 14:39:40] "GET /file/4 HTTP/1.1" 200 -
+2025-10-18 14:39:43,280 [INFO] 127.0.0.1 - - [18/Oct/2025 14:39:43] "GET /file/3 HTTP/1.1" 200 -
+2025-10-18 14:39:46,088 [ERROR] Get error: [Errno 2] No such file or directory: '/Users/jcatillo/Documents/School/Proglan/file-upload/uploads/e39b25e138fc4db7a772d18499dce12d_Screenshot_2025-10-16_at_2.37.18_PM.png'
+2025-10-18 14:39:46,093 [INFO] 127.0.0.1 - - [18/Oct/2025 14:39:46] "[35m[1mGET /file/2 HTTP/1.1[0m" 500 -
