@@ -24,7 +24,7 @@ def login():
             'exp': datetime.datetime.now() + datetime.timedelta(minutes=20)
         }, Config.SECRET_KEY, algorithm = 'HS256')
         logging.info(f'[LOGIN SUCCESS] Username: {username}')
-        return jsonify({f'message': 'Login Successful', 'token': token}), 200
+        return jsonify({f'message': 'Login Successful', 'username': username,'token': token}), 200
     
     logging.warning(f'[LOGIN FAILED] Username: {username}')
     return jsonify({'message': 'Invalid credentials'}), 401
